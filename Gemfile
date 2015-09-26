@@ -5,7 +5,11 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-gem 'sqlite3'
+# Database
+gem 'pg'
+
+# Auth
+gem 'devise'
 
 gem 'rom-sql'
 
